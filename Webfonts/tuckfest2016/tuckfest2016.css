@@ -1,0 +1,6 @@
+@font-face {
+	font-family: 'adam_cg_pro';
+	src: url('adam_cg_pro.eot') format('embedded-opentype'),
+		url('adam_cg_pro.svg') format('svg'),
+		url('adam_cg_pro.woff') format('woff');
+}

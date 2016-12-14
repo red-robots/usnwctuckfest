@@ -1,0 +1,13 @@
+/* ----------- Regular ----------- */
+.menu li a, h1, h2, h3, h4, h5{
+	font-family:'PT Sans', Arial, Helvetica, sans-serif;
+	font-weight: 700;
+}
+
+/* ----------- Light ----------- */
+#site-description, .format-quote p, .quote .entry p{
+	font-family:'PT Sans', Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+.wf-active .box h2{ font-size: 13px; }
