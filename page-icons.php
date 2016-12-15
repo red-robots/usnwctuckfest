@@ -6,11 +6,8 @@
 
 get_header('page'); ?>
 
-<div class="banner post">
-    <?php $slider=get_field("soliloquy");
-	if(function_exists('soliloquy_slider')&&$slider) soliloquy_slider($slider->ID); 
-	?>
-</div>
+
+ <?php get_sidebar('banner');?>
 <?php if(have_posts()){
 	the_post();
 	if($post->post_content){?>

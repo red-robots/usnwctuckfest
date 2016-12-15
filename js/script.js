@@ -6,6 +6,13 @@ var current_page_width = 0;
 
 jQuery.noConflict();
 
+(function($){
+    $('.flexslider').flexslider({
+        animation: "fade",
+        smoothHeight: true,
+    });
+})(jQuery);
+
 // QuickEach
 jQuery.fn.quickEach = (function(){
     var jq = jQuery([1]);

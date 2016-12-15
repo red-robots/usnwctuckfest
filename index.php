@@ -7,8 +7,8 @@
 
 get_header(); ?>
 
-<div class="banner">
-    <?php if(function_exists('soliloquy_slider')) soliloquy_slider('16'); 	?>
-</div>
+<?php $post = get_post('1875');
+setup_postdata($post);
+get_sidebar('banner');?>
     
 <?php get_footer(); ?>

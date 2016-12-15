@@ -41,7 +41,8 @@
 <link rel="icon" type="image/png" sizes="96x96" href="http://tuckfest.org/wp-content/uploads/2016/11/Favicon_96.png">
 <link rel="stylesheet" href="http://tuckfest.org/wp-content/themes/tuckfest/css/addtohomescreen.css">
 <script src="<?php echo get_template_directory_uri(); ?>/js/addtohomescreen.min.js?"></script>
-<script>
+<script src="https://use.fontawesome.com/4945cee666.js"></script>
+	<script>
 addToHomescreen({skipFirstVisit:true,maxDisplayCount:1});
 </script>
 

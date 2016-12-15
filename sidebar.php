@@ -11,6 +11,6 @@
 		<?php //dynamic_sidebar( 'unique-sidebar' ); ?>
 	<?php //} else if(is_archive() || is_home()) { ?>
 		<?php //dynamic_sidebar( 'gallery-sidebar' ); ?>
-	<?php } else { ?>
+	<?php } ?>
     
 </div><!-- #primary .widget-area -->

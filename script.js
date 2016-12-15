@@ -6,6 +6,7 @@ var current_page_width = 0;
 
 jQuery.noConflict();
 
+
 // QuickEach
 jQuery.fn.quickEach = (function(){
     var jq = jQuery([1]);
