@@ -7,7 +7,7 @@
 
 get_header(); ?>
 
-<?php $post = get_post('1875');
+<?php $post = get_post('1876');
 setup_postdata($post);
 get_sidebar('banner');?>
     
