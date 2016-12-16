@@ -15,11 +15,15 @@
 								<iframe src="<?php echo $row['video'];?>" allowfullscreen="true" frameborder="0"></iframe>
 							</div><!--.iframe-wrapper-->
 						<?php elseif(strcmp($row['video_or_image'],"image")===0&&$row['link']&&$row['image']): ?>
-							<a href="<?php echo $row['link'];?>" <?php if($row['target']):echo 'target="_blank"'; endif;?>>
-								<img src="<?php echo $row['image']['url'];?>" alt="<?php echo $row['image']['alt'];?>">
-							</a>
+							<div class="image-wrapper" style="background-image: url(<?php echo $row['image']['url'];?>);">
+								<a href="<?php echo $row['link'];?>" <?php if($row['target']):echo 'target="_blank"'; endif;?>>
+									<img src="<?php echo $row['image']['url'];?>" alt="<?php echo $row['image']['alt'];?>">
+								</a>
+							</div><!--.image-wrapper-->
 						<?php elseif(strcmp($row['video_or_image'],"image")===0&&$row['image']): ?>
-							<img src="<?php echo $row['image']['url'];?>" alt="<?php echo $row['image']['alt'];?>">
+							<div class="image-wrapper" style="background-image: url(<?php echo $row['image']['url'];?>);">
+								<img src="<?php echo $row['image']['url'];?>" alt="<?php echo $row['image']['alt'];?>">
+							</div><!--.image-wrapper-->
 						<?php endif;?>
 					</li>
 				<?php endforeach;?>

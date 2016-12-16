@@ -601,8 +601,23 @@ html[xmlns] .flexslider .slides {
 .flexslider .slides {
     zoom: 1;
 }
-.flexslider .slides img {
+.flexslider .slides .image-wrapper {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.flexslider .slides .image-wrapper img {
     height: auto;
+    min-height: 300px;
+    opacity: 0;
+}
+@media screen and (min-width: 767px) {
+    .flexslider .slides .image-wrapper {
+        background-image: none;
+    }
+    .flexslider .slides .image-wrapper img {
+        opacity: 1;
+    }
 }
 .flexslider .slides .iframe-wrapper {
     width: 100%;
