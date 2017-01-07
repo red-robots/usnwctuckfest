@@ -7,9 +7,11 @@ var current_page_width = 0;
 jQuery.noConflict();
 
 (function($){
-    $('.flexslider').flexslider({
-        animation: "fade",
-        smoothHeight: true,
+    $('.flexslider').imagesLoaded( function() {
+        $('.flexslider').flexslider({
+            animation: "fade",
+            smoothHeight: true,
+        });
     });
 })(jQuery);
 
