@@ -16,22 +16,26 @@
 								        frameborder="0"></iframe>
 							</div><!--.iframe-wrapper-->
 						</li>
-					<?php elseif ( strcmp( $row['video_or_image'], "image" ) === 0 && $row['link'] && $row['image'] ): ?>
-						<li>
-							<div class="image-wrapper"
-							     style="background-image: url(<?php echo $row['image']['url']; ?>);">
-								<a href="<?php echo $row['link']; ?>" <?php if ( $row['target'] ):echo 'target="_blank"'; endif; ?>>
-									<img src="<?php echo $row['image']['url']; ?>"
-									     alt="<?php echo $row['image']['alt']; ?>">
-								</a>
-							</div><!--.image-wrapper-->
-						</li>
 					<?php elseif ( strcmp( $row['video_or_image'], "image" ) === 0 && $row['image'] ): ?>
 						<li>
-							<div class="image-wrapper"
-							     style="background-image: url(<?php echo $row['image']['url']; ?>);">
-								<img src="<?php echo $row['image']['url']; ?>"
-								     alt="<?php echo $row['image']['alt']; ?>">
+							<div class="image-wrapper <?php echo $row['mobile_image']?'yes-mobile':'no-mobile';?>"
+							     style="background-image: url(<?php if($row['mobile_image']):
+								     echo $row['mobile_image']['url'];
+							     else:
+                                     echo $row['image']['url'];
+							     endif;?>);">
+                                <?php if($row['link']):?>
+								    <a href="<?php echo $row['link']; ?>" <?php if ( $row['target'] ):echo 'target="_blank"'; endif; ?>>
+								<?php endif;?>
+                                        <img class="desktop" src="<?php echo $row['image']['url']; ?>"
+									     alt="<?php echo $row['image']['alt']; ?>">
+                                        <?php if($row['mobile_image']):?>
+                                            <img class="mobile" src="<?php echo $row['mobile_image']['url']; ?>"
+                                                 alt="<?php echo $row['mobile_image']['alt']; ?>">
+                                        <?php endif;?>
+                                <?php if($row['link']):?>
+								    </a>
+                                <?php endif;?>
 							</div><!--.image-wrapper-->
 						</li>
 					<?php endif; ?>

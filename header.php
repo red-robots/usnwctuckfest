@@ -29,7 +29,8 @@
 <meta name="google-site-verification" content="QE1ud00S7EAZ5Lveel-VWoVZQbyxzeRTK3YPjHGDuY4" />
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-<link rel="stylesheet" href="<?php echo get_bloginfo('stylesheet_url').'?v=1019323214'; ?>" />
+    <link rel="stylesheet" type="text/css" href="<?php echo get_bloginfo('stylesheet_url').'?v='.time(); ?>" />
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/flexslider.css?v=<?php echo time();?>" />
 <link rel="stylesheet" href="http://tuck.usnwc.mobi/wp-content/themes/tuckfest/Webfonts/tuckfest/tuckstyle.css" type="text/css" charset="utf-8" />
 <link rel="stylesheet" href="http://tuckfest.org/wp-content/themes/tuckfest/Webfonts/tuckfest2016/tuckfest2016.css" type="text/css" charset="utf-8" />
 <link rel="apple-touch-icon" sizes="57x57" href="http://tuckfest.org/wp-content/uploads/2016/11/Favicon_57.png">
