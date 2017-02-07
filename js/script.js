@@ -6,15 +6,56 @@ var current_page_width = 0;
 
 jQuery.noConflict();
 
-(function($){
-    $('.flexslider').imagesLoaded( function() {
+jQuery(document).ready(function ($) {
+
+    function anchor_scroll_capsule(e) {
+        if (!e.sudo) {
+            if (e.target.href) {
+                var index = e.target.href.indexOf('#');
+                if (index > -1) {
+                    var target_hash = e.target.href.substr(index);
+                    var $target_anchor = $('[name="' + target_hash.substr(1) + '"]');
+                    if ($target_anchor.length === 0) {
+                        return;
+                    }
+                }
+            }
+        }
+        $(document).imagesLoaded(function () {
+            var hash = window.location.hash;
+            if (hash.length > 0) {
+                var $anchor = $('[name="' + hash.substr(1) + '"]');
+                if ($anchor.length > 0) {
+                    var scrollTo = $anchor.offset().top;
+                    $('html').animate({
+                        scrollTop: scrollTo,
+                    }, e.data.delay);
+                }
+            }
+        });
+    }
+    anchor_scroll_capsule({
+        sudo: true,
+        data: {
+            delay: 500,
+        },
+    });
+    $('a').click({delay: 200}, anchor_scroll_capsule);
+    $('.flexslider').imagesLoaded(function () {
         $('.flexslider').flexslider({
             animation: "fade",
             smoothHeight: true,
+            start: function(){
+                anchor_scroll_capsule({
+                    sudo: true,
+                    data: {
+                        delay: 200,
+                    },
+                });
+            }
         });
     });
-})(jQuery);
-
+});
 // QuickEach
 jQuery.fn.quickEach = (function(){
     var jq = jQuery([1]);
