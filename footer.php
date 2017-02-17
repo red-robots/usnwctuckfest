@@ -17,7 +17,12 @@
 		<ul>
 			<li><a href="http://usnwc.org/" target="_blank"><img src="/wp-content/uploads/2016/03/USNWC.png" alt="USNWC logo"></a></li>
 			<li><a href="http://explore.usnwc.org/" target="_blank"><img src="/wp-content/uploads/2016/03/Explore.png" alt="USNWC EXPLORE Logo"></a></li>
-			<li><a href="http://usnwc.org/visit/outfitters/" target="_blank"><img src="/wp-content/uploads/2016/03/Outfitters.png" alt="OUTFITTERS Logo"></a></li>
+            <li><a href="http://usnwc.org/visit/outfitters/" target="_blank"><img src="/wp-content/uploads/2016/03/Outfitters.png" alt="OUTFITTERS Logo"></a></li>
+            <li><a href="https://www.bellsbeer.com/" target="_blank"><img src="http://tuckfest.org/wp-content/uploads/2017/02/Bells.png" alt="Bells Brewery Logo"></a></li>
+            <li><a href="http://www.keenfootwear.com/" target="_blank"><img src="http://tuckfest.org/wp-content/uploads/2017/02/Keen.png" alt="Keen Footwear Logo"></a></li>
+            <li><a href="https://recoverbrands.com/" target="_blank"><img src="http://tuckfest.org/wp-content/uploads/2017/02/Recover.png" alt="Recover Brands Logo"></a></li>
+            <li><a href="http://www.blueridgeoutdoors.com/" target="_blank"><img src="http://tuckfest.org/wp-content/uploads/2017/02/BRO.png" alt="Blue Ridge Outdoors Logo"></a></li>
+
 		</ul>
 	</div>
 </div>  

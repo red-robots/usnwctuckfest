@@ -41,6 +41,6 @@
 					<?php endif; ?>
 				<?php endforeach; ?>
 			</ul>
-		</div>
+		</div><!--.flexslider-->
 	<?php endif; ?>
-</div>
+</div><!--#banner-->
