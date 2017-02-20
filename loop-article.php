@@ -140,7 +140,9 @@ function display_loop_article($args){
 									</tr>
 								</tbody>
 							</table>
-						<?php } 
+						<?php }
+						$below_schedule_section = get_field("below_schedule_section");
+    					if($below_schedule_section) echo $below_schedule_section;
 						edit_post_link(__('Edit this post', 'shaken')); ?>
 					</section>
    				</article>
