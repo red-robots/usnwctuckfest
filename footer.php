@@ -22,6 +22,7 @@
             <li><a href="http://www.keenfootwear.com/" target="_blank"><img src="http://tuckfest.org/wp-content/uploads/2017/02/Keen.png" alt="Keen Footwear Logo"></a></li>
             <li><a href="https://recoverbrands.com/" target="_blank"><img src="http://tuckfest.org/wp-content/uploads/2017/02/Recover.png" alt="Recover Brands Logo"></a></li>
             <li><a href="http://www.blueridgeoutdoors.com/" target="_blank"><img src="http://tuckfest.org/wp-content/uploads/2017/02/BRO.png" alt="Blue Ridge Outdoors Logo"></a></li>
+            <li><a href="https://www.mountainkhakis.com/ " target="_blank"><img src="http://tuckfest.org/wp-content/uploads/2017/03/mountain-khakis-Logo_White.png" alt="Mountain Khakis Logo"></a></li>
 
 		</ul>
 	</div>
