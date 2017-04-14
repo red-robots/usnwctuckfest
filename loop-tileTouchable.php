@@ -123,74 +123,26 @@ function display_loop_tile_touchable( $args ) {
 										$query_tile = new WP_Query( array( 'category__in'   => $days,
 										                                   'post_type'      => 'post',
 										                                   'order'          => 'ASC',
+                                                                            'orderby'=>'menu_order',
 										                                   'posts_per_page' => '-1'
 										) );
 										if ( $query_tile->have_posts() ) {
-											$ordered_titles = array();
-											$ordered_times  = array();
-											$end_ordered_times  = array();
-											$ordered_am_pm  = array();
-											$end_ordered_am_pm  = array();
-											$ordered_12     = array();
-											$end_ordered_12     = array();
 											while ( $query_tile->have_posts() ) {
 												$query_tile->the_post();
 												for ( $j = 0; $j < count( $days ); $j ++ ) {
 													$time = get_field( strtolower( get_category( $days[ $j ] )->slug ) . "_time" );
 													if ( $time ) {
-														$times = preg_split( "/,/", $time );
-														$dashed_times = array();
-														$end_dashed_times = array();
-														for($i=0;$i<count($times);$i++){
-															$dash_splits = preg_split( "/-/", $times[$i] );
-															$dashed_times[] = $dash_splits[0];
-															$end_dashed_times[] = isset($dash_splits[1]) ? $dash_splits[1]: "12 am";
-                                                        }
-														for ( $i = 0; $i < count( $times ); $i ++ ) {
-															$time = $dashed_times[ $i ];
-															$full_time = $times[$i];
-															$end_time = $end_dashed_times[$i];
 															$cats = array();
 															foreach ( get_the_category() as $cat ) {
 																$cats[] = $cat->category_nicename;
 															}
 															if ( in_array( "music-saturday", $cats ) || in_array( "music-friday", $cats ) || in_array( "music-sunday", $cats ) ) {
-																$ordered_titles[] = "<p><a href='" . get_permalink() . "'><span class='highlight-music'>" . get_the_title() . "</span></a> - <span class='highlight-music time'>" . $time . "</span></p>";
+																echo "<p><a href='" . get_permalink() . "'><span class='highlight-music'>" . get_the_title() . "</span></a> - <span class='highlight-music time'>" . $time . "</span></p>";
 															} else {
-																$ordered_titles[] = "<p><a href='" . get_permalink() . "'>" . get_the_title() . "</a> - <span class='time'>" . $full_time . "</span></p>";
+															    echo "<p><a href='" . get_permalink() . "'>" . get_the_title() . "</a> - <span class='time'>" . $time . "</span></p>";
 															}
-
-															$unformatted_time = intval( preg_replace( "/[^0-9]/", "", $time ) );
-															$end_unformatted_time = intval( preg_replace( "/[^0-9]/", "", $end_time ) );
-															if ( preg_match( "/\d{3}|\d{4}/", $unformatted_time ) === 1 ) {
-																$ordered_times[] = $unformatted_time;
-															} else {
-																$ordered_times[] = $unformatted_time * 100;
-															}
-															if ( preg_match( "/\d{3}|\d{4}/", $end_unformatted_time ) === 1 ) {
-																$end_ordered_times[] = $end_unformatted_time;
-															} else {
-																$end_ordered_times[] = $end_unformatted_time * 100;
-															}
-															$ordered_am_pm[] = preg_replace( "/.*(am|pm).*/i", "$1", $time );
-															$end_ordered_am_pm[] = preg_replace( "/.*(am|pm).*/i", "$1", $end_time );
-															if ( preg_match( "/.*12.*/", $time ) === 1 ) {
-																$ordered_12[] = 0;
-															} else {
-																$ordered_12[] = 1;
-															}
-															if ( preg_match( "/.*12.*/", $end_time ) === 1 ) {
-																$end_ordered_12[] = 0;
-															} else {
-																$end_ordered_12[] = 1;
-															}
-														}
 													}
 												}
-											}
-											array_multisort( $ordered_am_pm, SORT_ASC, SORT_STRING, $ordered_12, SORT_ASC, SORT_NUMERIC, $ordered_times, SORT_ASC, SORT_NUMERIC, $end_ordered_am_pm, SORT_ASC, SORT_STRING, $end_ordered_12, SORT_ASC, SORT_NUMERIC, $end_ordered_times, SORT_ASC, SORT_NUMERIC, $ordered_titles, SORT_ASC, SORT_STRING );
-											foreach ( $ordered_titles as $item ) {
-												echo $item;
 											}
 										}
 									}
