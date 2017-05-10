@@ -43,7 +43,7 @@ jQuery(document).ready(function ($) {
     $('a').click({delay: 200}, anchor_scroll_capsule);
     var $slides = $('.flexslider .slides li');
     if ($slides.length > 0) {
-        $slides.eq(0).add($slides.eq(1)).add($slides.eq(-1)).find('img.lazy')
+        $slides.eq(1).add($slides.eq(-1)).find('img.lazy')
             .each(function () {
                 var src = $(this).attr('data-src');
                 $(this).removeClass('lazy');
