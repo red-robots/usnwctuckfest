@@ -109,17 +109,6 @@ function display_loop_tile_touchable( $args ) {
 								<?php
 								$days = get_field( "schedule_day" );
 								if ( $days ) {
-									if ( strcmp( $query->post->post_name, "tuck-fest-prep-week-schedule" ) == 0 ) {
-										echo "<p><span class='time'>Monday, April 17</span></p>";
-										echo "<p><a href='http://tuckfest.org/competitions-demos/tuck-fest-prep-week/#recover-ride'>Recover Ride</a> - <span class='time'>6:00 pm</span></p>";
-										echo "<p><span class='time'>Tuesday, April 18</span></p>";
-										echo "<p><a href='http://tuckfest.org/competitions-demos/tuck-fest-prep-week/#six-pack-adventure-attack'>Six-Pack Adventure Attack</a> - <span class='time'>7:00 pm</span></p>";
-										echo "<p><span class='time'>Wednesday, April 19</span></p>";
-										echo "<p><a href='http://tuckfest.org/competitions-demos/tuck-fest-prep-week/#tigers-eye'>Tiger’s Eye</a> - <span class='time'>7:30 pm</span></p>";
-										echo "<p><span class='time'>Thursday, April 20</span></p>";
-										echo "<p><a href='http://tuckfest.org/competitions-demos/tuck-fest-prep-week/#afternoon-spin'>Afternoon Spin</a> - <span class='time'>3:30 pm</span></p>";
-										echo "<p><a href='http://tuckfest.org/competitions-demos/tuck-fest-prep-week/#bloc-party'>Bloc Party</a> - <span class='time'>5:00 pm</span></p>";
-									} else {
 										$query_tile = new WP_Query( array( 'category__in'   => $days,
 										                                   'post_type'      => 'post',
 										                                   'order'          => 'ASC',
@@ -136,7 +125,7 @@ function display_loop_tile_touchable( $args ) {
 															foreach ( get_the_category() as $cat ) {
 																$cats[] = $cat->category_nicename;
 															}
-															if ( in_array( "music-saturday", $cats ) || in_array( "music-friday", $cats ) || in_array( "music-sunday", $cats ) ) {
+															if ( in_array( "music-saturday", $cats ) || in_array( "music-friday", $cats ) || in_array( "music-sunday", $cats ) || in_array( "music-thursday", $cats ) ) {
 																echo "<p><a href='" . get_permalink() . "'><span class='highlight-music'>" . get_the_title() . "</span></a> - <span class='highlight-music time'>" . $time . "</span></p>";
 															} else {
 															    echo "<p><a href='" . get_permalink() . "'>" . get_the_title() . "</a> - <span class='time'>" . $time . "</span></p>";
@@ -145,7 +134,6 @@ function display_loop_tile_touchable( $args ) {
 												}
 											}
 										}
-									}
 								}
 								wp_reset_postdata(); ?>
                             </section>
