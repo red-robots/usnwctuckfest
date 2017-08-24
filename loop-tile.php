@@ -103,7 +103,7 @@ function display_loop_tile($args){
  	              					<img class="<?php echo $my_size;?>" src="<?php echo $img_url_rel;?>">
              				<?php } ?>
              				<header>
-             					<img src="/wp-content/uploads/2016/11/W_button.png">
+             					<img src="/wp-content/uploads/2017/08/W_button.png">
              					<h2><?php the_title(); ?></h2>
              				</header>
    	 				</div></a>   	

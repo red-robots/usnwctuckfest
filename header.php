@@ -33,13 +33,13 @@
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/flexslider.css?v=<?php echo time();?>" />
 <link rel="stylesheet" href="http://tuck.usnwc.mobi/wp-content/themes/tuckfest/Webfonts/tuckfest/tuckstyle.css" type="text/css" charset="utf-8" />
 <link rel="stylesheet" href="http://tuckfest.org/wp-content/themes/tuckfest/Webfonts/tuckfest2016/tuckfest2016.css" type="text/css" charset="utf-8" />
-<link rel="apple-touch-icon" sizes="57x57" href="http://tuckfest.org/wp-content/uploads/2016/11/Favicon_57.png">
-<link rel="apple-touch-icon" sizes="72x72" href="http://tuckfest.org/wp-content/uploads/2016/11/Favicon_72.png">
-<link rel="apple-touch-icon" sizes="114x114" href="http://tuckfest.org/wp-content/uploads/2016/11/Favicon_114.png">
-<link rel="apple-touch-icon" sizes="144x144" href="http://tuckfest.org/wp-content/uploads/2016/11/Favicon_144.png">
-<link rel="icon" type="image/png" sizes="16x16" href="http://tuckfest.org/wp-content/uploads/2016/11/Favicon_16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://tuckfest.org/wp-content/uploads/2016/11/Favicon_32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="http://tuckfest.org/wp-content/uploads/2016/11/Favicon_96.png">
+<link rel="apple-touch-icon" sizes="57x57" href="<?php echo get_template_directory_uri();?>/favicons/Favicon_57.png">
+<link rel="apple-touch-icon" sizes="72x72" href="<?php echo get_template_directory_uri();?>/favicons/Favicon_72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="<?php echo get_template_directory_uri();?>/favicons/Favicon_114.png">
+<link rel="apple-touch-icon" sizes="144x144" href="<?php echo get_template_directory_uri();?>/favicons/Favicon_144.png">
+<link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_template_directory_uri();?>/favicons/Favicon_16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri();?>/favicons/Favicon_32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="<?php echo get_template_directory_uri();?>/favicons/Favicon_96.png">
 <link rel="stylesheet" href="http://tuckfest.org/wp-content/themes/tuckfest/css/addtohomescreen.css">
 <script src="<?php echo get_template_directory_uri(); ?>/js/addtohomescreen.min.js?"></script>
 <script src="https://use.fontawesome.com/4945cee666.js"></script>
@@ -70,8 +70,8 @@ if(is_category()){
 	?>-->
 	<gcse:search></gcse:search>
 	<img class="showsearch" src="/wp-content/uploads/2015/09/Search.png">
-	<img class="showmenu hamburger" src="/wp-content/uploads/2016/11/Menu_hamburger-1.png">
-	<a href="http://tuckfest.org/" title="Tuck Fest 2015" rel="home"><img class="logo-tf" src="/wp-content/uploads/2016/11/TF_Header.png"></a>
+	<img class="showmenu hamburger" src="/wp-content/uploads/2017/08/Menu_hamburger.png">
+	<a href="http://tuckfest.org/" title="Tuck Fest 2015" rel="home"><img class="logo-tf" src="http://tuckfest.org/wp-content/uploads/2017/08/TF_Header.png"></a>
 	<nav>
 		<?php wp_nav_menu( array( 'theme_location' => 'header', 'container' => '' ) ); ?>
 	</nav>

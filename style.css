@@ -14,13 +14,35 @@ Version: 1
   font-weight: normal;
   text-rendering: optimizeLegibility;
 }
+font-face {
+	font-family: 'Futura';
+	src: url('Webfonts/tuckfest2018/Futura-Medium.woff') format('woff');
+	font-style: normal;
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+}
+@font-face {
+	font-family: 'DCC';
+	src: url('Webfonts/tuckfest2018/DDCHardware-Regular.otf') format("opentype");
+	font-style: normal;
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+}
+@font-face {
+	font-family: 'Womby';
+	src: url('Webfonts/tuckfest2018/Womby-Regular.otf') format("opentype"),
+	url('Webfonts/tuckfest2018/Womby-Regular.woff') format('woff'),
+	url('Webfonts/tuckfest2018/Womby-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
+	font-style: normal;
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+}
 /* ///////////////NEW STYLING ////////////////*/
 html {
 	margin-top: 0px !important;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: Liberator, franklin_gothic_fs_cdregular, Arial, Helvetica, sans-serif;
-	color: #F74902;
+	color: #1A3853;
 }
 .iframe-holder {
 	width: 100%;
@@ -70,7 +92,7 @@ nav.mobile{
 	width: 250px;
 	z-index: 0;
 	margin: 30px 0 0 0;
-	font-family: Liberator, franklin_gothic_fs_cdregular, Arial, Helvetica, sans-serif;
+	font-family: 'DCC', sans-serif;
 }
 nav.mobile ul{
 	margin: 5px 0;
@@ -94,19 +116,19 @@ nav.mobile ul:nth-child(3) .mobile-top-level{
 nav.mobile .mobile-top-level{
 	font-size: 1.3em;
 	letter-spacing: 3pt;
-	color: #F74902;
+	color: #1A3853;
 }
 nav.mobile .mobile-sub-menu{
 	font-size: 0.9em;
 	text-transform: capitalize;
 	letter-spacing: 1pt;
-	color: #77CCCD;
+	color: #CAAE68;
 }
 nav.mobile ul:nth-child(3) .mobile-sub-menu {
 	line-height: 1.5;
 }
 nav.mobile .mobile-sub-menu a {
-	color: #77CCCD;
+	color: #CAAE68;
 }
 header.page h1 {
 	text-indent: -999999px;
@@ -130,8 +152,8 @@ header.page .showmenu.hamburger {
 }
 header.page .logo-tf{
 	display: inline-block;
-	width: 40%;
-	margin: 0 30%;
+	width: 60%;
+	margin: 0 20%;
 	padding: 0;
 }
 header.page nav {
@@ -139,7 +161,7 @@ header.page nav {
 	padding: 0;
 	display: block;
 	width: 100%;
-	border-top: 4px solid #77CCCD;
+	border-top: 4px solid #CAAE68;
 }
 header.page nav li{
 	display: inline-block;
@@ -151,13 +173,13 @@ header.page nav li{
 	margin-bottom: 0px;
 	margin-left:0px;
 	padding: 10px 30px 10px 28px;
-	background: url(/wp-content/uploads/2016/11/TF_Menu_divider-2.png);
+	background: url(/wp-content/uploads/2017/08/TF_Menu_divider.png);
 	background-position: right center;
 	background-repeat:no-repeat;
 }
 
 header.page nav ul {
-	font-family: Liberator, franklin_gothic_fs_cdregular, Arial, Helvetica, sans-serif;
+	font-family: 'DCC', sans-serif;
 	font-size: 18pt;
 	font-weight:normal;
 	margin: 0 auto !important;
@@ -172,7 +194,7 @@ header.page nav li:last-child {
 
 header.page nav li a{
 	text-decoration:none;
-	color: #F74902;
+	color: #1A3853;
 }
 header.page nav li a .gray-nav{
 	text-decoration:none;
@@ -203,11 +225,11 @@ li.current-menu-item a,
 li.current_page_ancestor a, 
 li.current_page_ancestor li a:hover, 
 li.current_page_ancestor li.current-menu-item a{
-	color: #F77F00;
+	color: #CAAE68;
 }
 li.current-menu-item li a, 
 li.current_page_ancestor li a{
-	color: #F77F00;
+	color: #CAAE68;
 }
 .withpipe {
 	border-right:3px;
@@ -226,7 +248,7 @@ header.page nav ul ul{
 	left: -10px;
 	z-index:99;
 	width: 150px;
-	background: #003049;
+	background: #E8E5DA;
 	padding: 16px 10px 0px;
 	display:none;
 	background-position: top;
@@ -246,7 +268,7 @@ header.page nav ul ul li a{
 	display:block;
 	padding:8px 0;
 	letter-spacing: 0px;
-	color: #F74902;
+	color: #1A3853;
 	line-height: 20px;
 }
 
@@ -258,7 +280,7 @@ header.page nav ul ul li{
 	display:block;
 	clear:both;
 	margin:0;
-	border-bottom: 2px dashed #77CCCD;
+	border-bottom: 2px dashed #CAAE68;
 	background:none;
 	position:relative;
 	padding:0px;
@@ -307,10 +329,10 @@ header.page nav .sub-nav ul ul li{
 header.page nav .sub-nav ul ul li:last-child{ background: none; }
 main.page > header {
 	border: none;
-	font-family: Liberator, franklin_gothic_fs_cdregular, Arial, Helvetica, sans-serif;
+	font-family: 'DCC', sans-serif;
 	text-align: center;
 	padding: 0;
-	color: #F74902;
+	color: #1A3853;
 	margin: 50px 0 0 0;
 	background-color: transparent;
 }
@@ -358,7 +380,7 @@ section.post.container > header h1{
 	max-width: 930px;
 	height: auto;
 	font-size: 18pt;
-	font-family: franklin_gothic_fs_cdregular, Arial, Helvetica, sans-serif;
+	font-family: 'DCC', sans-serif;
 	letter-spacing: .18em;
 	color: white;
 	text-align: center;
@@ -369,7 +391,7 @@ section.post.container > header h1{
 article.row {
 	display: inline-block;
 	padding: 1%;
-	border-bottom: 2px dashed #F74902;
+	border-bottom: 2px dashed #1A3853;
 }
 article.row .copy {
 	display: inline-block;
@@ -380,12 +402,12 @@ article.row .copy header {
 	height: auto;
 	padding: 0;
 	margin: 0 0 0.5em 0;
-	color: #F74902;
+	color: #1A3853;
 }
 article.row .copy header h2 {
 	width: auto;
 	height: auto;
-	font-family: Liberator, franklin_gothic_fs_cdregular, Arial, Helvetica, sans-serif;
+	font-family: 'Womby', sans-serif;
 	font-size: 14pt;
 	letter-spacing: 0.20em;
 	text-transform: uppercase;
@@ -420,8 +442,8 @@ article.row .copy{
 	//-o-transition: height .25s;
 }
 .tile.container.slideable .tile {
-	border: 3px solid #2F5069;
-	background-color: #2F5069;
+	border: 3px solid #1A3853;
+	background-color: #1A3853;
 	display: inline-block;
 	transition: top .5s, left .5s;
 	-webkit-transition: top .5s, left .5s;
@@ -437,8 +459,8 @@ article.row .copy{
 	margin: 25px;
 }
 .tile.container.slideable .tile header {
-	font-family: Liberator, franklin_gothic_fs_cdregular, Arial, Helvetica, sans-serif;
-	color: #F74902;
+	font-family: 'DCC', sans-serif;
+	color: #1A3853;
 	text-align:center;
 	padding: 0;
 	display:block; 
@@ -458,21 +480,22 @@ article.row .copy{
 	text-transform:uppercase;
 	margin: 0;
 	padding: 12px 0;
+	color: #CAAE68;
 }
 .tile.container.touchable .tile section.copy p {
 	margin: 0 0 5px 0;
 }
 .tile.container.touchable .tile section.copy p a {
-	color: #74e1bf;
+	color: #CAAE68;
 }
 .tile.container.touchable .tile section.copy .time {
-	color: #F77F00;
+	color: #E8E5DA;
 }
 .tile.container.touchable .tile section.copy .highlight-music {
-	color: #F77F00;
+	color: #E8E5DA;
 }
 .tile.container.touchable .tile section.copy .highlight-music.time {
-	color: #74e1bf;
+	color: #CAAE68;
 }
 .icon.container .icon header {
 	width: 98%;
@@ -481,7 +504,7 @@ article.row .copy{
 	padding: 0;
 }
 .icon.container .icon header h2 {
-	color: #00b5b4;
+	color: #CAAE68;
 	font-size: 1em;
 	letter-spacing: .05em;
 	text-transform: capitalize;
@@ -514,8 +537,8 @@ article.row .copy{
 }
 /* BANNER */
 #banner {
-	border-bottom: 4px solid #77CCCD;
-	border-top: 4px solid #77CCCD;
+	border-bottom: 4px solid #CAAE68;
+	border-top: 4px solid #CAAE68;
 }
 
 /* FOOTER */
@@ -644,19 +667,19 @@ footer.page .row.description.font-notice a {
 	font-size: 20pt;
 }
 .registration article.post.registration table{
-	color: #F74902;
+	color: #1A3853;
 	width: 80%;
 	margin: 10px auto;
 }
 section.post.container article.row section.copy table.time {
-	color: #F74902;
+	color: #1A3853;
 	width: 60%;
 	margin: 10px 0;
-	font-family: Liberator, franklin_gothic_fs_cdregular, Arial, Helvetica, sans-serif;
+	font-family: 'DCC', sans-serif;
 }
 .registration article.post.registration table tr td, .registration article.post.registration table tr th, section.post.container article.row section.copy table.time tr td, section.post.container article.row section.copy table.time tr th {
-	border-right: 2px solid #77CCCD;
-	border-bottom: 2px solid #77CCCD;
+	border-right: 2px solid #CAAE68;
+	border-bottom: 2px solid #CAAE68;
 	width: 18%;
 	text-align: center;
 	margin: 0;
@@ -704,9 +727,9 @@ section.post.container article.row section.copy table.time tr td:first-child, se
 	text-align: left;
 }
 .music-time {
-	color: #F74902;
+	color: #1A3853;
 	font-size: 14pt;
-	font-family: Liberator, franklin_gothic_fs_cdregular, Arial, Helvetica, sans-serif;
+	font-family: 'DCC', sans-serif;
 	letter-spacing: 0.20em;
 }
 
@@ -760,11 +783,11 @@ body
 
 
 body{
-	background: url(/wp-content/uploads/2016/11/Background.png);
-	background-color: #003049;
-	font-family: franklin_gothic_fs_cdregular, Arial, Helvetica, sans-serif;
+	background: url(/wp-content/uploads/2017/08/Background.png);
+	background-color: #E8E5DA;
+	font-family: 'Futura', sans-serif;
 	font-size:11pt;
-	color: #77CCCD;
+	color: #CAAE68;
 }
 
 .clearfix{
@@ -821,11 +844,11 @@ a:hover{
 h1{	
 	margin-bottom: 0px;
 	border:none 0;
-	font-family: Liberator, franklin_gothic_fs_cdregular, Arial, Helvetica, sans-serif;
+	font-family: 'DCC', sans-serif;
 	font-size: 18pt;
 	letter-spacing: 3px;
 	padding: 10px 0px;
-	color: #F74902;
+	color: #1A3853;
 	font-weight:normal;
 	text-transform:uppercase;
 	margin-bottom: 15px;
@@ -835,11 +858,11 @@ h1{
 h2{	
 	margin-bottom: 0px;
 	border:none 0;
-	font-family: Liberator, franklin_gothic_fs_cdregular, Arial, Helvetica, sans-serif;
+	font-family: 'Womby', sans-serif;
 	font-size: 16pt;
 	letter-spacing: 3px;
 	padding: 10px 0px;
-	color: #F74902;
+	color: #1A3853;
 	font-weight:normal;
 	text-transform:uppercase;
 	margin-bottom: 15px;
@@ -853,7 +876,7 @@ h3.sponsor{
 
 h1.post-title, h1.page-title{
 	border:none 0;
-	font-family: Liberator, franklin_gothic_fs_cdregular, Arial, Helvetica, sans-serif;
+	font-family: 'DCC', sans-serif;
 	font-size: 28pt;
 	font-weight:normal;
 	text-align:center;
@@ -1022,9 +1045,9 @@ hr{
 }
 
 #title {
-	color: #F74902;
+	color: #1A3853;
 	text-transform:uppercase;
-	font-family: Liberator, franklin_gothic_fs_cdregular, Arial, Helvetica, sans-serif;
+	font-family: 'Womby', sans-serif;
 }
 
 /* =======================================
@@ -1594,7 +1617,7 @@ border-bottom:none;
 }
 
 .register-button {
-    background:#F74902;
+    background:#1A3853;
     color:#fff;
     margin-bottom:20px;
     border-radius: 10px;
@@ -1606,7 +1629,7 @@ border-bottom:none;
     font-size: 18pt;
 }
 .register-button-2{
-	background:#F74902;
+	background:#1A3853;
 	color:#fff;
 	margin-bottom:20px;
 	border-radius: 10px;
@@ -3521,8 +3544,8 @@ float:none;
 
 @media screen and (max-width: 670px) {
 body {
-	background: url(/wp-content/uploads/2016/11/Background_Mobile.png);
-	background-color: #003049;
+	background: url(/wp-content/uploads/2017/08/Background.png);
+	background-color: #E8E5DA;
 }
 header.page img.showsearch {
 	display: inline-block;

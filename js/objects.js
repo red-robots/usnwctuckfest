@@ -65,10 +65,10 @@ function Swipe(scheduler, args_obj){
 			var rightArrow=document.createElement("img");
 			var leftArrow=document.createElement("img");
 			var arrowLoadNum=0;
-			rightArrow.src="/wp-content/uploads/2016/12/RightArrow_teal.png";
+			rightArrow.src="/wp-content/uploads/2017/08/RightArrow.png";
 			rightArrow.className="right arrow";
 			rightArrow.style.position="absolute";			
-			leftArrow.src="/wp-content/uploads/2016/12/LeftArrow_Teal.png";
+			leftArrow.src="/wp-content/uploads/2017/08/LeftArrow.png";
 			leftArrow.className="left arrow";
 			leftArrow.style.position="absolute";
 			containers[k].appendChild(leftArrow);

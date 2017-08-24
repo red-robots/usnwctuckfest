@@ -152,7 +152,8 @@ html[xmlns] .flexslider .slides {
     overflow: hidden;
     opacity: 0;
     cursor: pointer;
-    color: rgba(0, 0, 0, 0.8);
+    color: rgba(26,56,83,0.8);
+    text-indent: -999px;
     text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -166,23 +167,19 @@ html[xmlns] .flexslider .slides {
 .flex-nav-next {
     list-style-type: none;
 }
-.flex-direction-nav a:before {
-    font-family: "FontAwesome";
-    font-size: 40px;
-    display: inline-block;
-    content: '\f053';
-    line-height: 1;
-    color: white;
-}
-.flex-direction-nav a.flex-next:before {
-    content: '\f054';
-}
 .flex-direction-nav .flex-prev {
+    background-image: url(/wp-content/uploads/2017/08/LeftArrow.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
     left: -50px;
 }
 .flex-direction-nav .flex-next {
+    background-image: url(/wp-content/uploads/2017/08/RightArrow.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
     right: -50px;
-    text-align: right;
 }
 .flexslider:hover .flex-direction-nav .flex-prev {
     opacity: 0.7;
