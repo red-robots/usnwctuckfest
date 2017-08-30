@@ -42,7 +42,7 @@ html {
 	margin-top: 0px !important;
 }
 h1, h2, h3, h4, h5, h6 {
-	color: #1A3853;
+	color: #CAAE68;
 }
 .iframe-holder {
 	width: 100%;
@@ -263,7 +263,7 @@ header.page nav ul li:nth-child(5) ul li:last-child, header.page nav ul li:nth-c
 }
 header.page nav ul ul li a{
 	font-size: 10pt;
-	font-family: franklin_gothic_fs_cdregular, sans-serif, Arial, Helvetica, sans-serif;
+	font-family: 'DCC', sans-serif;
 	text-transform:uppercase;
 	display:block;
 	padding:8px 0;
@@ -787,7 +787,7 @@ body{
 	background-color: #E8E5DA;
 	font-family: 'Futura', sans-serif;
 	font-size:11pt;
-	color: #CAAE68;
+	color: #1A3853;
 }
 
 .clearfix{
@@ -862,7 +862,7 @@ h2{
 	font-size: 16pt;
 	letter-spacing: 3px;
 	padding: 10px 0px;
-	color: #1A3853;
+	color: #CAAE68;
 	font-weight:normal;
 	text-transform:uppercase;
 	margin-bottom: 15px;
