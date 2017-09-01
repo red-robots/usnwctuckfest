@@ -128,9 +128,9 @@ function display_loop_article($args){
 									</tr>
 									<tr>
 										<td>Day</td>
-										<td><?php if($friday) { echo '<img src="/wp-content/uploads/2016/11/Checkmark.png">';} ?></td>
-										<td><?php if($saturday) { echo '<img src="/wp-content/uploads/2016/11/Checkmark.png">';} ?></td>
-										<td><?php if($sunday) { echo '<img src="/wp-content/uploads/2016/11/Checkmark.png">';} ?></td>
+										<td><?php if($friday) { echo '<img src="http://tuckfest.org/wp-content/uploads/2017/09/Checkmark.png">';} ?></td>
+										<td><?php if($saturday) { echo '<img src="http://tuckfest.org/wp-content/uploads/2017/09/Checkmark.png">';} ?></td>
+										<td><?php if($sunday) { echo '<img src="http://tuckfest.org/wp-content/uploads/2017/09/Checkmark.png">';} ?></td>
 									</tr>
 									<tr>
 										<td>Time</td>

@@ -15,9 +15,9 @@
 	</div>
 	<div class="sponsors container rotator">
 		<ul>
-			<li><a href="http://usnwc.org/" target="_blank"><img src="/wp-content/uploads/2016/03/USNWC.png" alt="USNWC logo"></a></li>
-			<li><a href="http://explore.usnwc.org/" target="_blank"><img src="/wp-content/uploads/2016/03/Explore.png" alt="USNWC EXPLORE Logo"></a></li>
-            <li><a href="http://usnwc.org/visit/outfitters/" target="_blank"><img src="/wp-content/uploads/2016/03/Outfitters.png" alt="OUTFITTERS Logo"></a></li>
+			<li><a href="http://usnwc.org/" target="_blank"><img src="http://tuckfest.org/wp-content/uploads/2017/09/USNWC.png" alt="USNWC logo"></a></li>
+			<li><a href="http://explore.usnwc.org/" target="_blank"><img src="http://tuckfest.org/wp-content/uploads/2017/09/Explore.png" alt="USNWC EXPLORE Logo"></a></li>
+            <li><a href="http://usnwc.org/visit/outfitters/" target="_blank"><img src="http://tuckfest.org/wp-content/uploads/2017/09/Outfitters.png" alt="OUTFITTERS Logo"></a></li>
 		</ul>
 	</div>
 </div>  
