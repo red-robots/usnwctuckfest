@@ -442,6 +442,7 @@ article.row .copy{
 	//-o-transition: height .25s;
 }
 .tile.container.slideable .tile {
+	vertical-align: top;
 	border: 3px solid #1A3853;
 	background-color: #1A3853;
 	display: inline-block;
@@ -449,6 +450,9 @@ article.row .copy{
 	-webkit-transition: top .5s, left .5s;
 	-moz-transition: top .5s, left .5s;
 	-o-transition: top .5s, left .5s;
+}
+.tile.container.slideable {
+	text-align: center;
 }
 .tile.container.slideable .arrow {
 	width: 32px;
@@ -3560,8 +3564,7 @@ main.page > header h1 {
 	font-size: 18pt;
 }
 .slideable.container {
-	position: relative; 
-	height: 400px;
+	position: relative;
 	width: auto;
 	overflow: hidden;
 }
