@@ -23,7 +23,8 @@ font-face {
 }
 @font-face {
 	font-family: 'DCC';
-	src: url('Webfonts/tuckfest2018/DDCHardware-Regular.otf') format("opentype");
+	src: url('Webfonts/tuckfest2018/DDCHardware-Regular.otf') format("opentype"),
+	url('Webfonts/tuckfest2018/DDCHardware-Regular.woff') format('woff');
 	font-style: normal;
 	font-weight: normal;
 	text-rendering: optimizeLegibility;
@@ -435,6 +436,7 @@ article.row .copy{
 	vertical-align: top;
 }
 .container.slideable, .icon.container {
+	text-align: center;
 	margin: 0 auto;
 	//transition: height .25s;
 	//-webkit-transition: height .25s;
@@ -450,9 +452,6 @@ article.row .copy{
 	-webkit-transition: top .5s, left .5s;
 	-moz-transition: top .5s, left .5s;
 	-o-transition: top .5s, left .5s;
-}
-.tile.container.slideable {
-	text-align: center;
 }
 .tile.container.slideable .arrow {
 	width: 32px;
