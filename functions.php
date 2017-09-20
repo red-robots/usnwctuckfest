@@ -546,4 +546,10 @@ wp_redirect(get_option('siteurl') . '/wp-login.php?redirect_to=' . urlencode($_S
 exit();
 }
 } 
+if(!function_exists('return_100')){
+	function return_100(){
+		return 100;
+	}
+}
+add_filter( 'jpeg_quality', 'return_100' );
 ?>

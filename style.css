@@ -181,7 +181,7 @@ header.page nav li{
 
 header.page nav ul {
 	font-family: 'DCC', sans-serif;
-	font-size: 18pt;
+	font-size: 17pt;
 	font-weight:normal;
 	margin: 0 auto !important;
 	letter-spacing:3px;
@@ -2292,12 +2292,11 @@ input, textarea{
 	/*background:#fff;*/
 	/*background:rgba(255,255,255,0.75);*/
 	font-family: franklin_gothic_fs_cdregular, 'Actor', sans-serif, Arial, Helvetica, sans-serif;
-	color:#777;
 	padding:5px 10px;
 	margin-top:2px;
-	background-color: #003245;
+	background-color: white;
 	border: none;
-	color: #fff;
+	color: #1A3853;
 }
 .mybutton {
 	width: 77%;
@@ -2319,23 +2318,24 @@ input[type=text],input[type=password], textarea{
 	/* -webkit-box-shadow:0 2px 3px rgba(0,0,0,0.1); */
 	-moz-box-shadow:0 2px 3px rgba(0,0,0,0.1);
 	/* box-shadow:0 2px 3px rgba(0,0,0,0.1); */
-	color: #fff;
+	color: #1A3853;
 	letter-spacing: 1px;
 }
 
 .enteryouremail input[type=text]{
-	color:#003245
+	color:#1A3853;
 }
 
 input[type=text],input[type=password]{
 	width:310px;
 	margin-bottom:10px;
-	background-color: #003245;
+	color: #1A3853;
+	background-color: white;
 }
 input[type=email], input[type=tel]{
 	width:310px;
 	margin-bottom:10px;
-	background-color: #003245;
+	background-color: white;
 }
 
 input[type="password"]{
@@ -3263,6 +3263,17 @@ a.filter-btn, a.comment span{
 	text-shadow:0 1px #FFF;
 }
 
+@media screen and (max-width: 1200px){
+	header.page nav ul {
+		font-size: 14pt;
+	}
+	header.page nav ul li {
+		padding: 10px 15px 10px 15px;
+	}
+	header.page nav li {
+		height: 25px;
+	}
+}
 @media screen and (max-width: 1027px){
 	main.page > header{
 		margin: 5.5% 0 0 0;
@@ -3336,10 +3347,14 @@ a.filter-btn, a.comment span{
 #logo {
 	padding:0px 20px;
 }
+header.page nav ul {
+	font-size: 10pt;
+}
 
 }
 
 @media screen and (max-width: 825px)  {
+	
 	footer.page .row.sponsors.social.search{
 		width: 550px;
 		display: block;
@@ -3364,6 +3379,8 @@ a.filter-btn, a.comment span{
 }
 /* iPad */
 @media screen and (max-width: 768px)  {
+
+	
 	main.page > header.page-content {
 		margin: 4% 0 0 0;
 	}
@@ -3625,8 +3642,8 @@ footer.page .row.sponsors .container.sponsors ul li img {
 	margin: 0;
 }
 .registration article.post.registration table tr td, .registration article.post.registration table tr th, section.post.container article.row section.copy table.time tr td, section.post.container article.row section.copy table.time tr th {
-	border-right: 1px solid #00b5b4;
-	border-bottom: 1px solid #00b5b4;
+	border-right: 1px solid #CAAE68
+	border-bottom: 1px solid #CAAE68
 	padding: 0.5em 0;
 	font-size: 0.7em;
 }
@@ -3639,20 +3656,23 @@ footer.page .row.sponsors .container.sponsors ul li img {
 .registration article.post.registration table tr td:first-child {
 	font-size: 0.7em;
 }
-section.post.container article.row section.copy table.time tr td, section.post.container article.row section.copy table.time tr th {
-	padding: 0.5em 1em;
-}
 .registration article.post.registration table tr td span, .registration article.post.registration table tr th span {
 	font-size: .5em;
 }
 section.post.container article.row section.copy table.time tr td, section.post.container article.row section.copy table.time tr th{
 	font-size: .9em;
 }
+section.post.container article.row section.copy table.time tr td, section.post.container article.row section.copy table.time tr th {
+	padding: 0.1em 0.25em;
+}
 
 
 }
 /* Small Screens */
 @media screen and (max-width: 500px) {
+	section.post.container article.row section.copy table.time tr td, section.post.container article.row section.copy table.time tr th {
+		padding: 0.1em 0.25em;
+	}
 	main.page > header.page-content {
 		margin: 5% 0 0 0;
 	}
