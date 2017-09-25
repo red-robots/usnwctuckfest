@@ -46,10 +46,10 @@ jQuery(window).load(function(){
 		container: document.getElementsByClassName('slideable container')
 	});
 	var $window= jQuery(window);
-	s.addLT(sw);
+	//s.addLT(sw);
 	s.addLT(rot);
-	s.addGT(so);
-	s.addAll({
+	//s.addGT(so);
+	/*s.addAll({
 		target:'.touchable.tile.container .tile.touchable > img, .touchable.tile.container .tile.touchable > header',
 		event:'click',
 		funcs: new Array(
@@ -58,7 +58,7 @@ jQuery(window).load(function(){
 		),
 		ptr: 0,
 		pass: true
-	});
+	});*/
 	s.initAll();
 	if((window.innerWidth?window.innerWidth:document.documentElement.clientWidth)>670){
 		s.executeGT();

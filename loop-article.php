@@ -113,39 +113,8 @@ function display_loop_article($args){
 		           					<?php } ?>
 								</tr>
 	           				</table>
-	           			<?php } 
-						$friday = get_field("friday_time");
-						$thursday = get_field("thursday_time");
-    					$saturday = get_field("saturday_time");
-    					$sunday = get_field("sunday_time"); 
-    					if($thursday||$friday||$saturday||$sunday){?>
-							<table class="time">
-								<tbody>
-									<tr>
-										<th></th>
-										<th>Thursday</th>
-										<th>Friday</th>
-										<th>Saturday</th>
-										<th>Sunday</th>
-									</tr>
-									<tr>
-										<td>Day</td>
-										<td><?php if($thursday) { echo '<img src="http://tuckfest.org/wp-content/uploads/2017/09/Checkmark.png">';} ?></td>
-										<td><?php if($friday) { echo '<img src="http://tuckfest.org/wp-content/uploads/2017/09/Checkmark.png">';} ?></td>
-										<td><?php if($saturday) { echo '<img src="http://tuckfest.org/wp-content/uploads/2017/09/Checkmark.png">';} ?></td>
-										<td><?php if($sunday) { echo '<img src="http://tuckfest.org/wp-content/uploads/2017/09/Checkmark.png">';} ?></td>
-									</tr>
-									<tr>
-										<td>Time</td>
-										<td><?php if($thursday) { echo $thursday;} ?></td>
-										<td><?php if($friday) { echo $friday;} ?></td>
-										<td><?php if($saturday) { echo $saturday;} ?></td>
-										<td><?php if($sunday) { echo $sunday;} ?></td>
-									</tr>
-								</tbody>
-							</table>
-						<?php }
-						$below_schedule_section = get_field("below_schedule_section");
+	           			<?php } ?>
+						<?php $below_schedule_section = get_field("below_schedule_section");
     					if($below_schedule_section) echo $below_schedule_section;
 						edit_post_link(__('Edit this post', 'shaken')); ?>
 					</section>

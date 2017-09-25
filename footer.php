@@ -15,7 +15,7 @@
 	</div>
 	<div class="sponsors container rotator">
 		<ul>
-			<li><a href="http://usnwc.org/" target="_blank"><img src="http://tuckfest.org/wp-content/uploads/2017/09/USNWC.png" alt="USNWC logo"></a></li>
+			<li><a href="http://usnwc.org/" target="_blank"><img src="http://tuckfest.org/wp-content/uploads/2017/09/USNWC_W.png" alt="USNWC logo"></a></li>
 			<li><a href="http://explore.usnwc.org/" target="_blank"><img src="http://tuckfest.org/wp-content/uploads/2017/09/Explore.png" alt="USNWC EXPLORE Logo"></a></li>
             <li><a href="http://usnwc.org/visit/outfitters/" target="_blank"><img src="http://tuckfest.org/wp-content/uploads/2017/09/Outfitters.png" alt="OUTFITTERS Logo"></a></li>
 		</ul>
@@ -63,6 +63,8 @@ jQuery(window).load(function(){
 <script src="<?php echo get_template_directory_uri(); ?>/js/plugins.js?v=20120423234911"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/script.js?v=20120423234908"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/mobilemenu.js?"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/objects.js?"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/scheduleInit.js?"></script>
 
 <?php wp_footer() ?>
 
