@@ -71,7 +71,7 @@ if(is_category()){
 	<gcse:search></gcse:search>
 	<img class="showsearch" src="/wp-content/uploads/2015/09/Search.png">
 	<img class="showmenu hamburger" src="/wp-content/uploads/2017/08/Menu_hamburger.png">
-	<a href="http://tuckfest.org/" title="Tuck Fest - U.S. National Whitewater Center" rel="home"><img class="logo-tf" src="http://tuckfest.org/wp-content/uploads/2017/08/TF_Header.png" alt="Tuck Fest - U.S. National Whitewater Center"></a>
+	<a href="http://tuckfest.org/" title="Tuck Fest - U.S. National Whitewater Center" rel="home"><img class="logo-tf" src="<?php echo get_template_directory_uri();?>/images/TF_Header.png" alt="Tuck Fest - U.S. National Whitewater Center"></a>
 	<nav>
 		<?php wp_nav_menu( array( 'theme_location' => 'header', 'container' => '' ) ); ?>
 	</nav>
