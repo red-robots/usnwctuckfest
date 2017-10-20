@@ -80,6 +80,7 @@ function display_loop_tile_touchable( $args ) {
                         <div class="tile touchable slideable <?php
 						echo $category_classes . $my_size . ' ' . $query->post->post_name;
 						?>">
+							<a name="<?php echo $query->post->post_name;?>"></a>
 							<?php
 							// Display video if available
 							if ( ( $embed_code || $vid_url ) && ! $force_feat_img ) {
