@@ -145,8 +145,7 @@ header.page img.showsearch {
     display: none;
     vertical-align: top;
     width: 5%;
-    margin: 6.2% 5% 0 0;
-    float: right;
+    margin: 10px;
 }
 header.page .showmenu.hamburger {
 	display: none;
@@ -486,12 +485,15 @@ article.row .copy{
 	color: #CAAE68;
 }
 .tile.container.touchable .tile section.copy p {
+	text-align: center;
 	margin: 0 0 5px 0;
 }
 .tile.container.touchable .tile section.copy p a {
+	display: block;
 	color: #CAAE68;
 }
 .tile.container.touchable .tile section.copy .time {
+	display: block;
 	color: #E8E5DA;
 }
 .tile.container.touchable .tile section.copy .highlight-music {
@@ -3390,15 +3392,19 @@ header.page nav ul {
 header.page nav {
 	display: none;
 }
+header.page .buttons {
+	text-align: center;
+}
 header.page .showmenu.hamburger {
 	display: inline-block;
 	vertical-align: top;
    	width: 5%;
-   	margin: 6.2% 0 0 5%;
+   	margin: 10px;
 }
 header.page .logo-tf{
-	width: 70%;
-	margin: 0 0 0 5%;
+	width: 100%;
+	margin: 0;
+	display: block;
 }
 footer.page .row.sponsors .container.sponsors {
 	display: table;
@@ -3567,8 +3573,12 @@ body {
 	background: url(/wp-content/uploads/2017/08/Background.png);
 	background-color: #E8E5DA;
 }
+header.page .showmenu.hamburger {
+	float: left;
+}
 header.page img.showsearch {
 	display: inline-block;
+	float: right;
 }
 main.page > header.tile-page.no-content, main.page > header.tile-page.no-content {
 	margin: 20px 0 0 0;

@@ -68,10 +68,13 @@ if(is_category()){
 		wp_title( '|', true, 'right' );
 		bloginfo( 'name' ); 
 	?>-->
-	<gcse:search></gcse:search>
-	<img class="showsearch" src="/wp-content/uploads/2015/09/Search.png">
-	<img class="showmenu hamburger" src="/wp-content/uploads/2017/08/Menu_hamburger.png">
 	<a href="http://tuckfest.org/" title="Tuck Fest - U.S. National Whitewater Center" rel="home"><img class="logo-tf" src="<?php echo get_template_directory_uri();?>/images/TF_Header.png" alt="Tuck Fest - U.S. National Whitewater Center"></a>
+	<gcse:search></gcse:search>
+	<div class="buttons">
+		<img class="showmenu hamburger" src="<?php echo get_template_directory_uri();?>/images/Menu_hamburger.png">
+		<img class="showsearch" src="<?php echo get_template_directory_uri();?>/images/Search.png">
+		<div class="clear"></div>
+	</div><!--.buttons-->
 	<nav>
 		<?php wp_nav_menu( array( 'theme_location' => 'header', 'container' => '' ) ); ?>
 	</nav>
