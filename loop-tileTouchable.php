@@ -127,7 +127,7 @@ function display_loop_tile_touchable( $args ) {
 																$cats[] = $cat->category_nicename;
 															}
 															if ( in_array( "music-saturday", $cats ) || in_array( "music-friday", $cats ) || in_array( "music-sunday", $cats ) || in_array( "music-thursday", $cats ) ) {
-																echo "<p><a href='" . get_permalink() . "'><span class='highlight-music'>" . get_the_title() . "</span></a> <span class='highlight-music time'>" . $time . "</span></p>";
+																echo "<p><a href='" . get_permalink() . "'><img src=\"".get_template_directory_uri()."/images/MusicNote.png\" alt=\"Music Note\">" . get_the_title() . "</a>" . $time . "</p>";
 															} else {
 															    echo "<p><a href='" . get_permalink() . "'>" . get_the_title() . "</a> <span class='time'>" . $time . "</span></p>";
 															}

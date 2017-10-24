@@ -9,7 +9,7 @@ function populateMobileNav(){
 		var $mobileMenu = jQuery('<ul></ul>').addClass('mobile-menu');
 		var $mobileTopLevel = jQuery('<li></li>').addClass('mobile-top-level');
 		var $mobileSubMenu = jQuery('<ul></ul>').addClass('mobile-sub-menu');
-		if(i>0 && i !== 3){
+		if(i !== 3){
 			$this.children('ul').children('li').children('a').each(function(){
 				if(jQuery(this).text()&&jQuery(this).attr('href')){
 					$mobileSubMenu.append(jQuery('<a></a>').append(jQuery('<li></li>').text(jQuery(this).text())).attr('href',jQuery(this).attr('href')));
@@ -18,10 +18,10 @@ function populateMobileNav(){
 		}
 		if($this.children('a').length!==0){
 			$mobileTopLevel.text($this.children('a').text());
-			if($mobileSubMenu.children().length!==0&&i>0 && i !==3){
+			if($mobileSubMenu.children().length!==0 && i !==3){
 				$mobileTopLevel.append($mobileSubMenu);
 			}
-			if(i===0 || i === 3){
+			if(i === 3){
 				$mobileTopLevel=jQuery('<a></a>').append($mobileTopLevel).attr('href',$this.children('a').attr('href'));
 			}
 			$mobileNav.append($mobileMenu.append($mobileTopLevel));

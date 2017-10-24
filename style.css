@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
 	width: 100%;
 }
 .page.container{
-	background: transparent
+	background: transparent;
 	display: block;
 	min-width: 320px;
 	position: relative;
@@ -487,6 +487,14 @@ article.row .copy{
 .tile.container.touchable .tile section.copy p {
 	text-align: center;
 	margin: 0 0 5px 0;
+	color: #E8E5DA;
+}
+.tile.container.touchable .tile section.copy p a img {
+	display: inline-block;
+	width: 25px;
+	margin-right: 5px;
+	vertical-align: middle;
+	margin-left: -30px;
 }
 .tile.container.touchable .tile section.copy p a {
 	display: block;
