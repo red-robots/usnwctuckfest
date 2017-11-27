@@ -75,6 +75,23 @@ jQuery(document).ready(function ($) {
                             $(this).removeClass('lazy');
                             $(this).attr('src', src).removeAttr('data-src');
                         });
+                    if($slides.eq(current).find('.iframe-wrapper').length > 0){
+                        slider.pause();
+                        setTimeout(function(){
+                            slider.play();
+                        },10000);
+                    }
+                }
+            },
+            start: function(slider){
+                var $slides = $(slider.slides);
+                if ($slides.length > 0) {
+                    if($slides.eq(0).find('.iframe-wrapper').length > 0){
+                        slider.pause();
+                        setTimeout(function(){
+                        slider.play();
+                        },10000);
+                    }
                 }
             }
         }); // end register flexslider
