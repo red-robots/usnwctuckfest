@@ -414,6 +414,10 @@ article.row .copy header h2 {
 	margin: 0;
 	padding: 0;
 }
+article.row.centered .copy {
+	width: 100%;
+	text-align: center;
+}
 article.row figure {
 	width: 21.7%;
 	height: auto;

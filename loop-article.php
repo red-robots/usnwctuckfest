@@ -51,15 +51,16 @@ function display_loop_article($args){
    				/* 
    				 * The article will contain all of the content of the queried post
    				 * Assign category names and post name to article class
-   				 */
+					*/
+				$centered = get_field("centered");
    				?>
    				<a name="<?php echo $query->post->post_name;?>"></a>
-   				<article class="row <?php echo $category_classes.$query->post->post_name;?>">
+   				<article class="row <?php echo $category_classes.$query->post->post_name;?> <?php if($centered && strcmp($centered,"yes")===0) echo "centered";?>">
  	  				<?php 
  	  				/*
  	  				 * Display the video or post_thumbnail featured image (if any)
  	  				 */
-   					if(has_post_thumbnail()){ 
+   					if(has_post_thumbnail() && !($centered && strcmp($centered,"yes")===0)){ 
    						$img_url=str_replace(home_url(),"",wp_get_attachment_image_src(get_post_thumbnail_id($query->post->ID),array(200,267))[0]);
    						/*
    						Commenting and if($img_url) to remove video from thumbnails
