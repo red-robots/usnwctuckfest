@@ -46,7 +46,18 @@
 	<script>
 addToHomescreen({skipFirstVisit:true,maxDisplayCount:1});
 </script>
-
+<script type="application/ld+json">
+{ "@context" : "http://schema.org",
+  "@type" : "Organization",
+  "name" : "U.S. National Whitewater Center Tuck Fest",
+  "url" : "http://tuckfest.org/",
+  "sameAs" : [ "https://www.linkedin.com/company/220848/" ,
+    "https://www.facebook.com/usnwc/",
+    "https://www.youtube.com/user/theusnwc/",
+    "https://www.instagram.com/usnwc/",
+“https://vimeo.com/usnwc”]
+}
+</script>
 </head>
 <body>
 <div class="base container <?php 

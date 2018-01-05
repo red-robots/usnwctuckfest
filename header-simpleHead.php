@@ -85,7 +85,18 @@ addToHomescreen();
 
 <link rel="stylesheet" href="http://www.usnwc.org/play/franklin-webfonts/franklingothicfs_mediumcondensed_macroman/stylesheet.css" type="text/css" charset="utf-8" />-->
 
-
+<script type="application/ld+json">
+{ "@context" : "http://schema.org",
+  "@type" : "Organization",
+  "name" : "U.S. National Whitewater Center Tuck Fest",
+  "url" : "http://tuckfest.org/",
+  "sameAs" : [ "https://www.linkedin.com/company/220848/" ,
+    "https://www.facebook.com/usnwc/",
+    "https://www.youtube.com/user/theusnwc/",
+    "https://www.instagram.com/usnwc/",
+“https://vimeo.com/usnwc”]
+}
+</script>
 
 <?php wp_head(); ?>  
 
