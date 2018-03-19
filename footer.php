@@ -7,9 +7,9 @@
 		</div>
 		<div class="social">
 			<ul>
-				<li><a href="http://www.facebook.com/usnwctuckfest" target="_blank"><img src="/wp-content/uploads/2017/08/Facebook.png"></a></li>
-				<li><a href="http://www.twitter.com/usnwctuckfest" target="_blank"><img src="/wp-content/uploads/2017/08/Twitter.png"></a></li>
-				<li><a href="http://www.instagram.com/usnwctuckfest" target="_blank"><img src="/wp-content/uploads/2017/08/Insta.png"></a></li>
+				<li><a href="http://www.facebook.com/usnwc" target="_blank"><img src="/wp-content/uploads/2017/08/Facebook.png"></a></li>
+				<li><a href="http://www.twitter.com/usnwc" target="_blank"><img src="/wp-content/uploads/2017/08/Twitter.png"></a></li>
+				<li><a href="http://www.instagram.com/usnwc" target="_blank"><img src="/wp-content/uploads/2017/08/Insta.png"></a></li>
 			</ul>
 		</div>
 	</div>
@@ -18,7 +18,7 @@
 			<li><a href="http://usnwc.org/" target="_blank"><img src="http://tuckfest.org/wp-content/uploads/2017/09/USNWC_W.png" alt="USNWC logo"></a></li>
 			<li><a href="http://explore.usnwc.org/" target="_blank"><img src="http://tuckfest.org/wp-content/uploads/2017/09/Explore.png" alt="USNWC EXPLORE Logo"></a></li>
             <li><a href="http://usnwc.org/visit/outfitters/" target="_blank"><img src="http://tuckfest.org/wp-content/uploads/2017/09/Outfitters.png" alt="OUTFITTERS Logo"></a></li>
-			<li><a href="https://www.bellsbeer.com/" target="_blank"><img src="http://tuckfest.org/wp-content/uploads/2018/02/Bells.png" alt="Bells Logo"></a></li>
+			<li><a href="https://www.bellsbeer.com/" target="_blank"><img src="http://tuckfest.org/wp-content/uploads/2018/03/Bells.png" alt="Bells Logo"></a></li>
 			<li><a href="https://www.keenfootwear.com/" target="_blank"><img src="http://tuckfest.org/wp-content/uploads/2018/02/Keen.png" alt="Keen Logo"></a></li>
 			<li><a href="https://recoverbrands.com/" target="_blank"><img src="http://tuckfest.org/wp-content/uploads/2018/02/Recover_Logo.png" alt="Recover Logo"></a></li>
 			<li><a href="https://www.hydroflask.com/" target="_blank"><img src="http://tuckfest.org/wp-content/uploads/2018/03/Hydroflask-1.png" alt="Hydro Flask Logo"></a></li>
