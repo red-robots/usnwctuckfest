@@ -15,14 +15,14 @@
 	</div>
 	<div class="sponsors container rotator">
 		<ul>
-			<li><a href="http://usnwc.org/" target="_blank"><img src="http://tuckfest.org/wp-content/uploads/2017/09/USNWC_W.png" alt="USNWC logo"></a></li>
-			<li><a href="http://explore.usnwc.org/" target="_blank"><img src="http://tuckfest.org/wp-content/uploads/2017/09/Explore.png" alt="USNWC EXPLORE Logo"></a></li>
-            <li><a href="http://usnwc.org/visit/outfitters/" target="_blank"><img src="http://tuckfest.org/wp-content/uploads/2017/09/Outfitters.png" alt="OUTFITTERS Logo"></a></li>
-			<li><a href="https://www.bellsbeer.com/" target="_blank"><img src="http://tuckfest.org/wp-content/uploads/2018/03/Bells.png" alt="Bells Logo"></a></li>
-			<li><a href="https://www.keenfootwear.com/" target="_blank"><img src="http://tuckfest.org/wp-content/uploads/2018/02/Keen.png" alt="Keen Logo"></a></li>
-			<li><a href="https://recoverbrands.com/" target="_blank"><img src="http://tuckfest.org/wp-content/uploads/2018/02/Recover_Logo.png" alt="Recover Logo"></a></li>
-			<li><a href="https://www.hydroflask.com/" target="_blank"><img src="http://tuckfest.org/wp-content/uploads/2018/03/Hydroflask-1.png" alt="Hydro Flask Logo"></a></li>
-			<li><a href="https://www.olukai.com/" target="_blank"><img src="http://tuckfest.org/wp-content/uploads/2018/02/OluKai_Logo.png" alt="OluKai Logo"></a></li>
+			<li><a href="http://usnwc.org/" target="_blank"><img src="https://tuckfest.usnwc.org/wp-content/uploads/2017/09/USNWC_W.png" alt="USNWC logo"></a></li>
+			<li><a href="http://explore.usnwc.org/" target="_blank"><img src="https://tuckfest.usnwc.org/wp-content/uploads/2017/09/Explore.png" alt="USNWC EXPLORE Logo"></a></li>
+            <li><a href="http://usnwc.org/visit/outfitters/" target="_blank"><img src="https://tuckfest.usnwc.org/wp-content/uploads/2017/09/Outfitters.png" alt="OUTFITTERS Logo"></a></li>
+			<li><a href="https://www.bellsbeer.com/" target="_blank"><img src="https://tuckfest.usnwc.org/wp-content/uploads/2018/03/Bells.png" alt="Bells Logo"></a></li>
+			<li><a href="https://www.keenfootwear.com/" target="_blank"><img src="https://tuckfest.usnwc.org/wp-content/uploads/2018/02/Keen.png" alt="Keen Logo"></a></li>
+			<li><a href="https://recoverbrands.com/" target="_blank"><img src="https://tuckfest.usnwc.org/wp-content/uploads/2018/02/Recover_Logo.png" alt="Recover Logo"></a></li>
+			<li><a href="https://www.hydroflask.com/" target="_blank"><img src="https://tuckfest.usnwc.org/wp-content/uploads/2018/03/Hydroflask-1.png" alt="Hydro Flask Logo"></a></li>
+			<li><a href="https://www.olukai.com/" target="_blank"><img src="https://tuckfest.usnwc.org/wp-content/uploads/2018/02/OluKai_Logo.png" alt="OluKai Logo"></a></li>
 			</ul>
 	</div>
 </div>  

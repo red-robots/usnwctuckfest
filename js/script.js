@@ -27,8 +27,10 @@ jQuery(document).ready(function ($) {
                 var $anchor = $('[name="' + hash.substr(1) + '"]');
                 if ($anchor.length > 0) {
                     var scrollTo = $anchor.offset().top;
-                    $('html').animate({
-                        scrollTop: scrollTo,
+                    setTimeout(function(){
+                        $('html').animate({
+                            scrollTop: scrollTo,
+                        }, 200);
                     }, e.data.delay);
                 }
             }
