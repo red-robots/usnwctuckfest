@@ -63,7 +63,7 @@ jQuery(window).load(function(){
 </script>
 
 <script src="<?php echo get_template_directory_uri(); ?>/js/plugins.js?v=20120423234911"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/script.js?v=20120423234908"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/script.js?v=201204235498789"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/mobilemenu.js?"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/objects.js?"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/scheduleInit.js?"></script>

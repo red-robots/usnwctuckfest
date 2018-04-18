@@ -30,18 +30,20 @@ jQuery(document).ready(function ($) {
                     setTimeout(function(){
                         $('html').animate({
                             scrollTop: scrollTo,
-                        }, 200);
+                        }, 500);
                     }, e.data.delay);
                 }
             }
         });
     }
-    anchor_scroll_capsule({
-        sudo: true,
-        data: {
-            delay: 500,
-        },
-    });
+    if($('.flexslider').length==0){
+        anchor_scroll_capsule({
+            sudo: true,
+            data: {
+                delay: 200,
+            },
+        });
+    }
     $('a').click({delay: 200}, anchor_scroll_capsule);
     var $slides = $('.flexslider .slides li');
     if ($slides.length > 0) {
