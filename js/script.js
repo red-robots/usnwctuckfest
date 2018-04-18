@@ -36,14 +36,12 @@ jQuery(document).ready(function ($) {
             }
         });
     }
-    if($('.flexslider').length==0){
-        anchor_scroll_capsule({
-            sudo: true,
-            data: {
-                delay: 200,
-            },
-        });
-    }
+    anchor_scroll_capsule({
+        sudo: true,
+        data: {
+            delay: 500,
+        },
+    });
     $('a').click({delay: 200}, anchor_scroll_capsule);
     var $slides = $('.flexslider .slides li');
     if ($slides.length > 0) {
@@ -58,7 +56,7 @@ jQuery(document).ready(function ($) {
         $('.flexslider').flexslider({
             animation: "fade",
             smoothHeight: true,
-            start: function (slider) { // Fires when the slider loads the first slide
+            start: function () { // Fires when the slider loads the first slide
                 anchor_scroll_capsule({
                     sudo: true,
                     data: {
