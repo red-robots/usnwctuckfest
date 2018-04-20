@@ -23,6 +23,7 @@
 			<li><a href="https://recoverbrands.com/" target="_blank"><img src="https://tuckfest.usnwc.org/wp-content/uploads/2018/02/Recover_Logo.png" alt="Recover Logo"></a></li>
 			<li><a href="https://www.hydroflask.com/" target="_blank"><img src="https://tuckfest.usnwc.org/wp-content/uploads/2018/03/Hydroflask-1.png" alt="Hydro Flask Logo"></a></li>
 			<li><a href="https://www.olukai.com/" target="_blank"><img src="https://tuckfest.usnwc.org/wp-content/uploads/2018/02/OluKai_Logo.png" alt="OluKai Logo"></a></li>
+			<li><a href="https://www.blueridgeoutdoors.com/" target="_blank"><img src="https://tuckfest.usnwc.org/wp-content/uploads/2018/03/BRO.png" alt="Blue Ridge Outdoors Logo"></a></li>
 			</ul>
 	</div>
 </div>  
